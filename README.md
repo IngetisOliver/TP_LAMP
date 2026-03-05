@@ -8,3 +8,7 @@ docker compose up -d
         •Utilisateur : root
         •Mot de passe : root
         •Base : DB-PRJ
+
+docker compose down -v
+docker compose up -d
+Le -v est important, il supprime les données MariaDB pour que le init.sql soit rejoué.
