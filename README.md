@@ -6,7 +6,7 @@ docker compose up -d
     •Adminer accessible : http://localhost:8080
         •Serveur : db
         •Utilisateur : root
-        •Mot de passe : root
+        •Mot de passe : poseidon
         •Base : DB-PRJ
 
 docker compose down -v
