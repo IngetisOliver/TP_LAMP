@@ -8,6 +8,9 @@ services:
     depends_on:
       - db
 
+    command: >
+      sh -c "docker-php-ext-install mysqli && php-fpm"
+
   db:
     image: mariadb:11
     environment:
